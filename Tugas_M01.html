@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="test.css" media=”screen” />
+    <title>bmi dan menghitung nilai</title>
+</head>
+<body>
+    <h1>HITUNG NILAI :</h1>
+
+    <div>
+<form name="form" action="javascript:void(0);">
+	<table>
+		<tr>
+			<td>Nilai Tugas</td>
+			<td><input type="text" name="ntgs"></td>
+		</tr>
+		<tr>
+			<td>Nilai UTS </td>
+			<td><input type="text" name="nuts"></td>
+		</tr>
+		<tr>
+			<td>Nilai UAS </td>
+			<td><input type="text" name="nuas"></td>
+		</tr>
+		<tr>
+			<td>Nilai hasil</td>
+			<td><input type="text" name="nakhir" disabled></td>
+		</tr>
+		<tr>
+			<td>Nilai Huruf</td>
+			<td><input type="text" name="nhuruf" disabled></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="hasil" value="hitung" onclick="nilaiakhir()"></td>
+			<td><input type="reset" name="reset"></td>
+		</tr>
+	</table>
+</form>
+    </div>
+
+
+<h1 style="margin-top: 50px;">KALKULATOR BMI :</h1>
+<div>
+    <p>Tinggi Badan Anda:</p>
+    <input class="height-input-field" type="text">
+    <p>Berat Badan Anda:</p>
+    <input class="weight-input-field" type="text"><br>
+    <button class="calculate"> Hitung</button>
+    <div>
+        <p><strong>BMI:</strong></p>
+        <h3 class="result"></h3>
+        <br>
+        <p><strong>Kategori:</strong></p>
+        <p class="result-statement"></p>
+    </div>
+<script src="./Tugas_M01.js"></script>
+
+</body>
+</html>
